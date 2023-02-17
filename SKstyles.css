@@ -1,0 +1,194 @@
+*{
+    height: 140px;
+    padding-left: 60px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: deepskyblue;
+    font-weight: bold;
+    padding-top: 60px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.detail h1{
+    font-size: 30px;
+    color: tomato;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span{
+    color: rgb(255, 0, 208);
+    font-size: 60px;
+    font-family:'Cinzel', serif;;
+}
+
+.detail p {
+    color: aqua;
+    line-height: 22px;
+    font-size: 20px;
+    padding-top: 53px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.detail a {
+    background: rgb(255, 255, 255);
+    padding: 15px 19px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 57px 0px;
+    border-radius: 5px;
+    height: 46px;
+    width: 165px;
+    font-family: 'Cinzel', serif;
+}
+.detail a:hover{
+    color: darkred;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 500px;
+    padding-left: 180px;
+}
+
+.images img:hover{
+    left: 45%;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-image: url(./ww.png);
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+}
+
+.card {
+    height: 365px;
+    width: 335 px;
+    padding: 20px;
+    background: #00000066;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+h5 {
+    color: darkred;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+.pra p {
+    /*background-color: #000000;*/
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-family: 'Cinzel', serif;
+}
+
+.social-media img {
+    height: 75px;
+    width: 75px;
+    margin: 3%;
+}
+
+h1 {
+    color: #ff3232;
+    margin: 20px 0px 20px;
+    font-size: 65px;
+    padding-top: 27px;
+    font-family: 'Cinzel', serif;
+}
+
+.title h2{
+    color: rgb(15, 3, 3);
+    
+    font-size: 65px;
+    width:1524px;
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 27px;
+    background-color: gray;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#section5{
+    background-image: linear-gradient(to right,  gray,  black);
+}
+footer {
+    background-color: #3b3b3b;
+    color: #fff;
+    
+    text-align: center;
+  }
+
+  
